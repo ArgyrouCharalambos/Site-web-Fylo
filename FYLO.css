@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(240, 75%, 98%);
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    height: 1440px;
+}
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+header #logo{
+    height: 35px;
+}
+header ul{
+    display: flex;
+    gap: 30px;
+}
+header ul a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    
+}
+main #section1{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main #section1 #description1{
+    width: 600px;
+    line-height: 30px;
+}
+main #section1 #description1 .titre{
+    font-size: 35px;
+    line-height: 40px;
+    width: 600px;
+}
+main #section1 #description1 .paragraphe{
+    width: 600px;
+    line-height: 30px;
+}
+main #section1 #image1{
+    height: 400px;
+}
+main #section1 #description1 #formulaire{
+    display: flex;
+    gap: 10px;
+}
+main #section1 #description1 #formulaire .Email{
+    border: 1px solid black;
+    padding: 10px;
+    padding-right: 40px;
+    border-radius: 3px;
+}
+main #section1 #description1 #formulaire .Button{
+    padding: 10px 40px;
+    border-radius: 3px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+main #image__ligne{
+    width: 100%;
+    background-color: 
+    rgb(255, 255, 255);
+}
+main #section2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(240, 75%, 98%);
+    padding-bottom: 100px;
+}
+main #section2 #image2{
+    height: 400px;
+}
+main #section2 #description2{
+    padding: 0 50px;
+    line-height: 20px;
+}
+main #section2 #description2 #sous__description1 .titre{
+    font-size: 35px;
+    width: 800px;
+}
+main #section2 #description2 #sous__description1 .paragraphe{
+    width: 570px;
+    line-height: 22px;
+}
+main #section2 #description2 #sous__description1 #fylo{
+    display: flex;
+    align-items: center;
+}
+main #section2 #description2 #sous__description1 #fylo #lien-fylo{
+    color:hsl(170, 45%, 43%);
+}
+main #section2 #description2 #sous__description2{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 250px;
+    border-radius: 7px;
+    margin: 30px 0;
+    padding: 20px;
+}
+main #section2 #description2 #sous__description2 #personnel{
+    display: flex;
+    line-height: 6px;
+    gap: 6px;
+}
+main #section2 #description2 #sous__description2 #personnel #image__personnel{
+    clip-path: circle();
+    height: 50px;
+}
+main #section3{
+    display: flex;
+    justify-content: space-around;
+    padding:80px 40px;
+    color: white;
+    background-color: hsl(238, 22%, 44%);
+}
+main #section3 #description3{
+    width: 500px;
+}
+main #section3 #formulaire2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;               
+}
+main #section3 #formulaire2 .Email{
+    padding: 10px;
+    padding-right: 150px;
+}
+main #section3 #formulaire2 .Button{
+    padding: 10px;
+    width: 170px;
+    background-color:hsl(224, 93%, 58%);
+    border: none;
+    color: white;
+
+}
+footer {
+    background-color: rgb(20, 14, 59);
+    padding:100px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer #information p{
+    color: white;
+    line-height: 0;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer #lien1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer #lien2{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+footer #information #telephone{
+    display: flex;
+    gap: 20px;
+}
+footer #information #email{
+    display: flex;
+    gap: 20px;
+}
+footer #lien3 img{
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px;
+}
