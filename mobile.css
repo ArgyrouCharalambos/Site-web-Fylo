@@ -1,0 +1,10 @@
+main #section1 #description1 .titre{
+    font-size: 25px;
+    line-height: 40px;
+    width: 100svw;
+}
+main #section1 #description1 .paragraphe{
+    width: 100svw;
+    line-height: 30px;
+    color: rgb(97, 97, 97);
+}

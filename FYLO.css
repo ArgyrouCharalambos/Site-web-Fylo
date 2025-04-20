@@ -34,10 +34,6 @@ main #section1{
     justify-content: space-around;
     align-items: center;
 }
-main #section1 #description1{
-    width: 600px;
-    line-height: 30px;
-}
 main #section1 #description1 .titre{
     font-size: 35px;
     line-height: 40px;
