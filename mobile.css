@@ -8,3 +8,31 @@ main #section1 #description1 .paragraphe{
     line-height: 30px;
     color: rgb(97, 97, 97);
 }
+main #image__ligne{
+    width: 20%;
+}
+main #section2 {
+    width: 100svw;
+    padding: 10px;
+}
+main #section2 #image2{
+    height: 10px;
+}
+main #section2 #description2{
+    padding: 0;
+}
+main #section2 #description2 #sous__description1 .titre{
+    width: 100svw;
+    line-height: 30px;
+}
+main #section2 #description2 #sous__description1 #fylo{
+    flex-direction: column;
+}
+main #section2 #description2 #sous__description2{
+    margin: 0;
+    padding: 0;
+}
+main #section2 #description2 #sous__description1 .paragraphe{
+    width: 100svw;
+    color:  rgb(97, 97, 97);
+}
